@@ -1,5 +1,5 @@
 import React from "react";
-import employee from "./employee";
+import employees from "./employees";
 
 function EmployeeCard(props) {
   return (
