@@ -1,6 +1,6 @@
 import React from "react";
 import ResourceListSection from "./ResourceListSection";
-import "./resourcesection.css";
+import "./ResourceSection.css";
 
 function TeamSection() {
   return <ResourceListSection />;
