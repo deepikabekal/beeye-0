@@ -1,10 +1,11 @@
 import React from "react";
 
 function ResourceList(props) {
-  return (
+  
+  return (    
     <div className="resource-list-div div-border">
       <div className="resource-img-div">
-        <img src={props.imageURL} alt="employee of the company" />
+        <img src={require(`../../assets/images/${props.imageName}`).default} alt="employee of the company" />
       </div>
       <div className="resource-info-div">
         <p className="resource-p-tag">{props.employeeName}</p>

@@ -10,7 +10,7 @@ function Header() {
     <header>
       <div className="inline-fx align-center">
         <img
-          src="../../assets/images/logo.png"
+          src={require(`../../assets/images/logo.png`).default}
           alt="logo"
           className="logo-img"
         />
@@ -20,7 +20,7 @@ function Header() {
         <Icons className="icon-style" />
         <Avatar
           className="user-img"
-          imageURL={employees[0].imageURL}
+          imageName={employees[0].imageName}
           altValue="Female Employee"
         />
       </div>

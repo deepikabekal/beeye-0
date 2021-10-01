@@ -1,9 +1,10 @@
+import React from "react";
 
 function Avatar(props) {
     return (
       <img
         className={props.className}
-        src={props.imageURL}
+        src={require(`../assets/images/${props.imageName}`).default}
         alt={props.altValue}
       />
     );

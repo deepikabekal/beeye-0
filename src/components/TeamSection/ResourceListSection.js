@@ -1,6 +1,7 @@
 import React from "react";
 import ResourceList from "./ResourceList";
-import employees from "../employee";
+import employees from "../employees";
+
 
 function ResourceListSection() {
   return (
@@ -8,7 +9,7 @@ function ResourceListSection() {
       {employees.slice(1).map((item) => (
         <ResourceList
           key={item.id}
-          imageURL={item.imageURL}
+          imageName={item.imageName}
           employeeName={item.employeeName}
           designation={item.designation}
         />
