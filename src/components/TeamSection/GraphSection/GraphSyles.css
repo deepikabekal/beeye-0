@@ -39,3 +39,12 @@
     display: flex;
     flex-direction: column;
   }
+
+  .date-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--greysMed01);
+  }
+
+  
