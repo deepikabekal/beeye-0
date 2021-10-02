@@ -3,7 +3,6 @@ import GraphSection from "./GraphSection";
 import ResourcePlanning from "./ResourcePlanning";
 
 function TeamSection() {
-  return <ResourcePlanning />;
   return (
     <>
       <GraphSection />
